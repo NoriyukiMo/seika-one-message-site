@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --bg-from:#edf4ff; --bg-via:#f9fbff; --bg-to:#dbe9ff; }
+body{ @apply text-blue-900 bg-gradient-to-b from-[var(--bg-from)] via-[var(--bg-via)] to-[var(--bg-to)]; }
